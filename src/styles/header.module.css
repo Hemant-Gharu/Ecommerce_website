@@ -1,0 +1,62 @@
+.header{
+    width: 100%; 
+    border: 1px solid white;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navLeft{
+    display: flex;
+    margin: 0 20px;
+
+}
+.logo{
+    width: 130px;
+
+}
+.navLeftItems{
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    
+}
+.navLeftItems li{
+    margin: 10px;
+    font-size: 1rem;
+}
+.search{
+    /* border: 1px solid white; */
+    display: flex;
+    
+}
+.search button{
+    border-radius: 20px 0 0 20px;
+    background-color: gainsboro;
+    color: black;
+    border: none;
+    outline: none;
+}
+.searchIcon{
+font-size: 20px;
+}
+.search input{
+    border-radius: 0 20px  20px 0;
+    border: none;
+    background-color: gainsboro;
+    color: black;
+    outline: none;
+    font-size: 1.3rem;
+}
+
+.navbar{
+    list-style: none;
+    padding: 25px;
+     display: flex;
+    justify-content: space-around;
+    /* margin-left: 200px; */
+}
+.navbar li{
+    padding: 0 15px;
+    
+}
