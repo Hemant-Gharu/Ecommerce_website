@@ -1,5 +1,5 @@
-import styles from '../styles/footer.module.css'
-import img from '../assets/logo.png'
+import styles from "../styles/footer.module.css";
+import img from "../assets/logo.png";
 import { FaApple } from "react-icons/fa";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 
@@ -12,8 +12,12 @@ function Footer() {
         </div>
         <div className={styles.rightFooter}>
           <div className={styles.appDownload}>
-            <IoLogoGooglePlaystore className={styles.android} />
-            <FaApple className={styles.apple} />
+            <div className={styles.download}>
+              <IoLogoGooglePlaystore className={styles.android} />
+            </div>
+            <div className={styles.download}>
+              <FaApple className={styles.apple} />
+            </div>
           </div>
         </div>
       </h2>
