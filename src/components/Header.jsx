@@ -2,8 +2,7 @@ import styles from "../styles/header.module.css";
 import { FaShoppingCart, FaUserAlt } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import logo from '../assets/logo.png'
-function Header() {
- 
+const Header = () => {
   return (
     <>
       <nav className={styles.header}>
@@ -34,6 +33,6 @@ function Header() {
       </nav>
     </>
   );
-}
+};
 
 export default Header;

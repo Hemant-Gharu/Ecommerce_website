@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 
-function App() {
+const App = ()=> {
   return (
     <div className="container">
       <Header />

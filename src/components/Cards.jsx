@@ -1,7 +1,7 @@
 import styles from "../styles/cards.module.css";
 
 const Cards = ({ item }) => {
-  const { product, price } = item;
+  const { product, price, img } = item;
   return (
     <div className={styles.cards}>
       <div className={styles.card}>
