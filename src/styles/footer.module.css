@@ -8,3 +8,13 @@
 .logo{
     width: 6rem;
 }
+
+.download{
+    border: 1px solid white;
+}
+.android{
+    border: 1px solid white;
+}
+.apple{
+    border: 1px solid white;
+}
