@@ -1,10 +1,29 @@
-.footer{
-    height: 20vh;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    /* justify-content: space-around; */
+.footer {
+  height: 20vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+.logo {
+  width: 6rem;
+}
+.rightFooter {
+  display: flex;
+  flex-direction: column;
+}
+.download {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+}
+.android {
+  /* border: 1px solid white; */
+}
+.apple {
+  border: 1px solid white;
+}
+<<<<<<< HEAD
 .logo{
     width: 6rem;
 }
@@ -18,3 +37,5 @@
 .apple{
     border: 1px solid white;
 }
+=======
+>>>>>>> ea70d730c0eeac744a98985b3e7e075e7913eec5

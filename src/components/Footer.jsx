@@ -1,5 +1,5 @@
-import styles from '../styles/footer.module.css'
-import img from '../assets/logo.png'
+import styles from "../styles/footer.module.css";
+import img from "../assets/logo.png";
 import { FaApple } from "react-icons/fa";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 
