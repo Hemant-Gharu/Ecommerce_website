@@ -8,6 +8,7 @@ const Cards = ({ item }) => {
         <img src={img} alt="" className={styles.image} />
         <p className={styles.product}>{product}</p>
         <p className={styles.price}>{price}</p>
+        <button className={styles.cartBtn}>Add to Cart</button>
       </div>
     </div>
   );

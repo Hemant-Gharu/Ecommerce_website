@@ -9,7 +9,6 @@ const App = ()=> {
       <Header />
       <Hero />
       {/* <Footer/> */}
-ac744a98985b3e7e075e7913eec5
     </div>
   );
 }
